@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PMSAnalytics_Tests' do
+  pod 'PMSAnalytics', :path => '../'
+  
+  
+end
