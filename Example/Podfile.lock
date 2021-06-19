@@ -1,0 +1,16 @@
+PODS:
+  - PMSAnalytics (0.1.0)
+
+DEPENDENCIES:
+  - PMSAnalytics (from `../`)
+
+EXTERNAL SOURCES:
+  PMSAnalytics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PMSAnalytics: cdc5ccf708135657cc2d3f1b8058b0f8c034e341
+
+PODFILE CHECKSUM: 9beb831fca73683e88d3ca8527c25ed5d2834676
+
+COCOAPODS: 1.10.1

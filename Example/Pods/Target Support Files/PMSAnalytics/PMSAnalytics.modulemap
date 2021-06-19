@@ -1,0 +1,6 @@
+framework module PMSAnalytics {
+  umbrella header "PMSAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
