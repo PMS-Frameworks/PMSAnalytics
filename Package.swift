@@ -12,7 +12,7 @@ let package = Package(
             targets: ["PMSAnalytics"]),
     ],
     dependencies: [
-        .package(name: "Firebase", url: "https://github.com/firebase/firebase-ios-sdk.git", from: "8.1.0"),
+        .package(name: "Firebase", url: "https://github.com/Goeun1001/SPM-Firebase.git", .branch("master")),
     ],
     targets: [
         .target(
