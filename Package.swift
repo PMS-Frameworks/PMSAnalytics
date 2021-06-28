@@ -18,6 +18,7 @@ let package = Package(
         .target(
             name: "PMSAnalytics",
             dependencies: [
+                .product(name: "FirebaseMessaging", package: "Firebase", condition: .when(platforms: [.iOS])),
                 .product(name: "FirebaseAnalytics", package: "Firebase", condition: .when(platforms: [.iOS])),
                 .product(name: "FirebaseCrashlytics", package: "Firebase", condition: .when(platforms: [.iOS])),
                 .product(name: "FirebaseDynamicLinks", package: "Firebase", condition: .when(platforms: [.iOS])),
